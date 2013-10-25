@@ -44,11 +44,7 @@ Ext.application({
      * launch.
      */
     launch: function() {
-    	alert([
-               'Device name: ' + Ext.device.Device.name,
-               'Device platform: ' + Ext.device.Device.platform,
-               'Device UUID: ' + Ext.device.Device.uuid
-           ].join('\n'));
+    	
         var categories = ['intro'],
             itemsCountPerCategory = 6,
             horizontalCarousels = [],
