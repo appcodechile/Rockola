@@ -26,6 +26,7 @@
 		2197F904170DF01A00245DA7 /* production in Resources */ = {isa = PBXBuildFile; fileRef = 2197F8F6170DED3A00245DA7 /* production */; };
 		2197F90A170DF07400245DA7 /* webapp in Resources */ = {isa = PBXBuildFile; fileRef = 2197F8F4170DE48500245DA7 /* webapp */; };
 		2197F90E170DFC2E00245DA7 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 2197F90D170DFC2E00245DA7 /* README.md */; };
+		8D5FA1A51818CA8F001185DB /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8D5FA1A41818CA8E001185DB /* Default-568h@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -47,6 +48,7 @@
 		2197F908170DF01A00245DA7 /* Rockola copy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Rockola copy.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2197F90D170DFC2E00245DA7 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
 		5BB4E618173A5A37003668C1 /* RockolaProduction-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RockolaProduction-Info.plist"; sourceTree = "<group>"; };
+		8D5FA1A41818CA8E001185DB /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +78,7 @@
 		2195C308170DE11000A244ED = {
 			isa = PBXGroup;
 			children = (
+				8D5FA1A41818CA8E001185DB /* Default-568h@2x.png */,
 				2197F90D170DFC2E00245DA7 /* README.md */,
 				2195C31A170DE11000A244ED /* MyWebApp */,
 				2195C313170DE11000A244ED /* Frameworks */,
@@ -203,6 +206,7 @@
 				2195C31F170DE11000A244ED /* InfoPlist.strings in Resources */,
 				2195C32E170DE11100A244ED /* MainStoryboard.storyboard in Resources */,
 				2197F90A170DF07400245DA7 /* webapp in Resources */,
+				8D5FA1A51818CA8F001185DB /* Default-568h@2x.png in Resources */,
 				2197F90E170DFC2E00245DA7 /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -303,7 +307,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = 2;
@@ -328,7 +332,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = 2;
@@ -349,7 +353,7 @@
 				INFOPLIST_FILE = "MyWebApp/Rockola-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = RockolaDevelopment;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -363,7 +367,7 @@
 				INFOPLIST_FILE = "MyWebApp/Rockola-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = RockolaDevelopment;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
