@@ -50,16 +50,12 @@ Ext.application({
             horizontalCarousels = [],
             items, i, j, ln, category;
 
-        //now we loop through each of the categories
+        
         for (i = 0,ln = categories.length; i < ln; i++) {
             items = [];
             category = categories[i];
 
             for (j = 1; j <= itemsCountPerCategory; j++) {
-                //and push each of the image as an item into the items array
-                //you can see we are using the img xtype which is an image component,
-                //and we just give is a custom cls to style it, and the src
-                //of the image
                 items.push({
                     xtype: 'image',
                     cls: 'my-carousel-item-img',
@@ -67,7 +63,6 @@ Ext.application({
                 });
             }
 
-            //now we add the new horizontal carousel for this category
             horizontalCarousels.push({
                 xtype: 'carousel',
                 //the direction is horizontal
