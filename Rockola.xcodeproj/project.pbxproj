@@ -182,6 +182,15 @@
 				CLASSPREFIX = IV;
 				LastUpgradeCheck = 0460;
 				ORGANIZATIONNAME = appcode.cl;
+				TargetAttributes = {
+					2195C310170DE11000A244ED = {
+						SystemCapabilities = {
+							com.apple.iOS = {
+								enabled = 0;
+							};
+						};
+					};
+				};
 			};
 			buildConfigurationList = 2195C30C170DE11000A244ED /* Build configuration list for PBXProject "Rockola" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -347,8 +356,6 @@
 		2195C335170DE11100A244ED /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MyWebApp/Rockola-Prefix.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -367,8 +374,6 @@
 		2195C336170DE11100A244ED /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MyWebApp/Rockola-Prefix.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = "DEVELOPMENT=1";

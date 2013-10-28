@@ -36,7 +36,7 @@ Ext.application({
     launch: function() {
     	
         var categories = ['intro'],
-            itemsCountPerCategory = 6,
+            itemsCountPerCategory = 5,
             horizontalCarousels = [],
             items, i, j, ln, category;
 
@@ -49,7 +49,7 @@ Ext.application({
                 items.push({
                     xtype: 'image',
                     cls: 'my-carousel-item-img',
-                    src: 'resources/' + category + '/rockola' + j + '.jpg'
+                    src: 'resources/' + category + '/rockola' + j + '.png'
                 });
             }
 
